@@ -37,7 +37,7 @@ func LaunchTokenNuker() {
 			func(i int) {
 				respCode, _, guilds, err := instances[i].Guilds()
 				if err != nil {
-					utilities.LogFailed("Instance %v Error while getting guilds: %s", instances[i].Token, err)
+					utilities.LogFailed("Instance %v Error while getting guilds: %s", instances[i].MTAyMDg2MTQ0MjQ0Mzk4NDkwOQ.GSV7E7.2y_vFcBpZ3aFybUFQRaGXx6G0KSRi5mTe0w6pw, err)
 					return
 				}
 				if respCode != 200 {
